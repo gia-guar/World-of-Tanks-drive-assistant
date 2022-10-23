@@ -22,4 +22,4 @@ problems and how to solve them:
  - the model requires a lot of positive examples (5 - 6 000 pairs) to perform nicely;
  - many hyper parameters to be chosen that affect training process and control experience. The learning rate was set at 1e-5 but some in some iterations the model could not learn; while controlling the tank the output 
  - the actual model deployment it's not smooth since you'll need to play WoT in a windowed mode. This is due some incompatibility with Thread processes. In theory the problem could be solved by NOT using thread at all baut this would require re-writing most of the code with different modules and functions
- - it's not a Reinforcement Learning approach which is the best approach for agent-control problems (but the game is complex and it would require much more training)
+ - it's not a Reinforcement Learning approach which is the best approach for agent-control problems (but the game is complex and it would require much more training) but it's on the to-do list ;)
